@@ -7,7 +7,7 @@ export default function Navbar() {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gray-900 text-white fixed w-full z-20 shadow-md">
+    <nav className="bg-gray-900 text-white shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         
         {/* Desktop Menu */}
