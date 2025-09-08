@@ -40,7 +40,11 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <div className="md:hidden">
-          <button onClick={toggleNavbar}>
+          <button
+            onClick={toggleNavbar}
+            aria-label="Toggle navigation"
+            aria-expanded={isOpen}
+          >
             {isOpen ? <X size={28} /> : <MenuIcon size={28} />}
           </button>
         </div>
